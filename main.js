@@ -21,3 +21,6 @@ app.all("*", (req, res) => {
   res.render("404", data);
 });
 
+app.listen(port, () => {
+  console.log(`Live on port ${port}`);
+});
